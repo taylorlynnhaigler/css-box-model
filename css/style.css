@@ -1,0 +1,82 @@
+/* Change the box-sizing property to border-box for all content */
+
+*, *:before, *:after {
+ box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+
+nav {
+  margin: 0 auto;
+  padding: 10px 0 15px 15px;
+  position: fixed;
+  width: 420px;
+  background-color: #0000;
+}
+
+.restaurant-list {
+  padding-top: 50px;
+  width: 200%;
+}
+
+/* Use nesting to style the text provided in the project */
+
+.content h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  line-height: 120%;
+}
+
+.content h3 {
+  font-size: 1.2em;
+  line-height: 140%;
+}
+
+
+/* Float the arrow to the right of the content */
+
+.arrow{
+ display: inline-block;
+ padding-top: 45px;
+ padding-right: 20px;
+ padding-bottom: 0px;
+ padding-left: 0px;
+ float: right;
+}
+
+.arrow-left{
+ position:static;
+}
+
+.container {
+ margin: 0 auto;
+ width: 420px;
+ background-color:black;
+}
+
+.content {
+ padding-left: 20px;
+ padding-top: 40px;
+ padding-right: 8px;
+ padding-bottom:15px;
+ display: inline-block;
+}
+
+/* Add a border to the content to separate restuants into a table */
+
+.location {
+ background-color: #DEDEDE ;
+ border: 1px solid #0000;
+ margin: 1px;
+ padding: .10%;
+ width: 420px;
+}
+
+/* Change the background-color for any div with a class of location when hovered upon.*/
+
+div.location:hover {background-color: silver;} /* mouse over */
